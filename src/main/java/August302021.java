@@ -11,6 +11,23 @@ When did the watch show the correct time ? Explanation needed.
 a) 7 a.m. Saturday b) 7 a.m. on Friday
 c) 10a.m. on Sunday d) 11 a.m. on Friday
 
+From 8pm Thursday to 8am Monday follows a linear progression, assuming that 8pm Thursday starts at the origin.
+The amount of time that passes between those two time points is (4 * 60) + (3 * 24 * 60) + (8 * 60) = 5040 minutes.
+y = x, where x is in minutes, where y is the amount of minutes that has passed and x is the time progression measured
+in minutes, thus has a slope of 1.
+
+If we want to then consider that time is progressing at a different rate than how the expected slope, then the two
+lines must only intersect once. Thus, we need to find the slope. m = [(5040 -7) - (5)] / 5040 = 0.99761905.
+
+Thus the slope equation is y = 0.99761905x + 5, thus they intersect at x = 0.99761905x + 5
+x = 5 / 0.00238095 = 2100 minutes or 35 horus after 8pm on Thursday.
+
+The answer is a) 7 a.m Saturday.
+
+This means that the only time the correct time was shown on the clock
+
+
+
  */
 
 import java.util.*;
